@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sen.JapLearning.quiz">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="624dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/txtq_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.友達とけんかをして、今はなかが＿＿＿＿＿＿＿＿＿＿です。" />
+
+            <RadioGroup
+                android:id="@+id/rdgrp_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rdgrp_1_ans_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="4" />
+
+                <RadioButton
+                    android:id="@+id/rdgrp_1_ans_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="5" />
+
+                <RadioButton
+                    android:id="@+id/rdgrp_1_ans_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="RadioButton" />
+
+            </RadioGroup>
+            <TextView
+                android:id="@+id/txta_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/txtq_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.つなみにあった人のことを考えるとむねが＿＿＿＿＿＿＿＿なります。	" />
+
+            <RadioGroup
+                android:id="@+id/rdgrp_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rdgrp_2_ans_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="180" />
+
+                <RadioButton
+                    android:id="@+id/rdgrp_2_ans_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="120" />
+
+                <RadioButton
+                    android:id="@+id/rdgrp_2_ans_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="3" />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/txta_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/txtq_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.私はいま、日本を勉強していまます。" />
+
+            <RadioGroup
+                android:id="@+id/rdgrp_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rdgrp_3_ans_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="a.	いい" />
+
+                <RadioButton
+                    android:id="@+id/rdgrp_3_ans_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" b.	わるい " />
+
+                <RadioButton
+                    android:id="@+id/rdgrp_3_ans_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="c.	おもい " />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/txta_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/txtq_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. 私たちは毎日学校へいきます。 " />
+
+            <RadioGroup
+                android:id="@+id/rdgrp_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rdgrp_4_ans_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="RadioButton" />
+
+                <RadioButton
+                    android:id="@+id/rdgrp_4_ans_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="b.	රුපියල " />
+
+                <RadioButton
+                    android:id="@+id/rdgrp_4_ans_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" c.	ශත 25  " />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/txta_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/txtq_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5.＿＿＿＿＿＿＿＿はとてもたのしかったです。" />
+
+            <RadioGroup
+                android:id="@+id/rdgrp_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rdgrp_5_ans_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="a.	බිරිඳ " />
+
+                <RadioButton
+                    android:id="@+id/rdgrp_5_ans_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" b.	ලොකු දුව " />
+
+                <RadioButton
+                    android:id="@+id/rdgrp_5_ans_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="c.	පොඩි දුව  " />
+
+            </RadioGroup>
+            <TextView
+                android:id="@+id/txta_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F0E68C"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/btnResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F0E68C"
+                android:text="Button" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="350dp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
